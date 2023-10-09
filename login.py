@@ -9,7 +9,7 @@ import requests
 import time
 
 st.set_page_config()
-count_down = st.number_input()
+count_down = st.number_input("Enter")
 ph = st.empty()
 N = count_down*60
 for secs in range(N,0,-1):
