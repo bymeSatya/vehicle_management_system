@@ -17,3 +17,4 @@ def cnt_down(count_down):
         mm, ss = secs//60, secs%60
         ph.metric("Countdown", f"{mm:02d}:{ss:02d}")
         time.sleep(1)
+cnt_down(count_down)
