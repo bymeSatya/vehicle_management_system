@@ -1,10 +1,10 @@
-import streamlit
+import streamlit as st
 import pandas
 import requests
 # import setuptools
 #import snowflake.connector
 
-streamlit.title('User Login')
+#streamlit.title('User Login')
 
 timer = 10
 
