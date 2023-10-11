@@ -17,6 +17,6 @@ dtobj3=dtobj1.replace(tzinfo=pytz.UTC) #replace method
 #print(pytz.all_timezones) => To see all timezones
 dtobj_india=dtobj3.astimezone(pytz.timezone("Asia/Calcutta")) #astimezone method
 for i in range(1,100):
-  time.sleep(i)
+  time.sleep(i*60)
   st.write(dtobj_india)
 
